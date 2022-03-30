@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ExpanDrive_Server_Edition</Name>
+  <Repository>ohmytallest/expandrive-server</Repository>
+  <Registry>https://hub.docker.com/r/ohmytallest/expandrive-server</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.lime-technology.com/topic/60168-support-gitea/</Support>
+  <Project/>
+  <Overview>ExpanDrive Server Edition is an all-in-one solution to mount all of your cloud storage account as network drives; giving you access to all your files locally and the ability to share them to other machines on your network. ExpanDrive is not a free service but offers a 7 day trial if you would like to see if the service is for you.</Overview>
+  <Category>Backup: Cloud:</Category>
+  <WebUI>http://[IP]:[PORT:28080]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/ohmytallest/unraid-docker-templates/master/ohmytallest/ExpanDrive_Server.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/ohmytallest/unraid-docker-templates/main/ohmytallest/icons/expandrive.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1648601039</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="WebUI over HTTP" Target="28080" Default="28080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">28080</Config>
+</Container>
